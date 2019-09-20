@@ -1,0 +1,144 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="15dp"
+    android:paddingBottom="20dp"
+    android:orientation="horizontal"
+ >
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="COUNTRY:"
+        android:textStyle="bold"
+        android:textColor="#900"
+        android:layout_gravity="left|top"
+        />
+
+
+    <ImageView
+        android:id="@+id/dialog_nationality"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+
+        android:padding="5dp"
+        android:layout_gravity="left|top"
+        />
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="ROLE:"
+        android:textStyle="bold"
+        android:textColor="#900"
+
+        android:layout_gravity="left|top"
+         />
+
+
+    <TextView
+
+        android:id="@+id/dialog_role"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BATSMAN"
+        android:layout_gravity="left|top"
+        />
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BAT HAND:"
+        android:textStyle="bold"
+        android:textColor="#900"
+
+        android:layout_gravity="left|top"
+        />
+
+
+    <TextView
+        android:id="@+id/dialog_bathand"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BATSMAN"
+        android:layout_gravity="left|top"
+        />
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BOWL TYPE:"
+        android:textStyle="bold"
+        android:textColor="#900"
+
+        android:layout_gravity="left|top"
+        />
+
+
+    <TextView
+        android:id="@+id/dialog_bowltype"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BATSMAN"
+        android:layout_gravity="left|top"
+        />
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BAT RATING:"
+        android:textStyle="bold"
+        android:textColor="#900"
+
+        android:layout_gravity="left|top"
+        />
+
+
+    <TextView
+        android:id="@+id/dialog_batskill"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BATSMAN"
+        android:layout_gravity="left|top"
+        />
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BOWL RATING:"
+        android:textStyle="bold"
+        android:textColor="#900"
+
+        android:layout_gravity="left|top"
+        />
+
+
+    <TextView
+        android:id="@+id/dialog_bowlskill"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:text="BATSMAN"
+        android:layout_gravity="left|top"
+        />
+
+
+
+</GridLayout>
+
+

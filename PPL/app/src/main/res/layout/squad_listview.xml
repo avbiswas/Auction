@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDD">
+    <ImageView
+        android:id="@+id/squad_player_role"
+        android:layout_width="25dp"
+             android:layout_height="25dp"
+        android:layout_gravity="center"
+
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/squad_player_name"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:text="NAME"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/squad_player_price"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:text="PRICE"
+        android:textColor="#000" />
+</LinearLayout>
