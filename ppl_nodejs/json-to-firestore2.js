@@ -4,7 +4,7 @@ require("firebase/firestore");
 
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
-    apiKey: "AIzaSyDlUEzkxP5o2Fiv03o7gMylsNicuSzENaU",
+    apiKey: "##",
 	projectId: "ppl-auction-883c3"
   });
   
